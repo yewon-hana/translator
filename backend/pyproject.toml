@@ -1,0 +1,31 @@
+[project]
+name = "translator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "accelerate>=1.11.0",
+    "datasets>=4.4.1",
+    "evaluate>=0.4.6",
+    "fastapi>=0.121.1",
+    "gdown>=5.2.0",
+    "google>=3.0.0",
+    "google-cloud-aiplatform>=1.127.0",
+    "google-genai>=1.50.0",
+    "ipykernel>=7.1.0",
+    "langchain>=1.0.5",
+    "langchain-community>=0.4.1",
+    "langchain-core>=1.0.4",
+    "langchain-google-genai>=3.0.3",
+    "matplotlib>=3.10.7",
+    "pillow>=12.0.0",
+    "sacremoses>=0.1.1",
+    "scikit-learn>=1.7.2",
+    "sentencepiece>=0.2.1",
+    "torch>=2.9.0",
+    "torchvision>=0.24.0",
+    "transformers>=4.57.1",
+    "transforms>=0.2.1",
+    "uvicorn>=0.38.0",
+]
