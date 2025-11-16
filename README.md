@@ -24,6 +24,7 @@ npm run dev
 uv install 필요
 ```bash
 cd backend
-uv run main.py
+uv sync
+uvicorn main:app
 ```
 *** 
