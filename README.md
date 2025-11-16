@@ -21,13 +21,9 @@ npm run dev
 ```
 
 - backend
-uvicorn 이 없다면 설치 필요
-```bash
-pip install uvicorn 
-```
-
+uv install 필요
 ```bash
 cd backend
-uvicorn main:app
+uv run main.py
 ```
 *** 
