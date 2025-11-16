@@ -34,7 +34,7 @@ npm run dev
 pip install fastapi uvicorn
 ```
 3. 서버 실행
-   ```bash
+```bash
 uvicorn main:app --host 0.0.0.0 --port 8000 --reload
 ```
 ***
