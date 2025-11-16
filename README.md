@@ -11,6 +11,7 @@
 ## 기술스택
 - frontend (react + vite)
 - backend (fastapi + python)
+- AI model (nlp04/korean_sentiment_analysis_kcelectra)
 
 ## 실행 방법
 - frontend 
