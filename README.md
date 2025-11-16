@@ -22,10 +22,23 @@ npm run dev
 ```
 
 - backend
-uv install 필요
+- 
+1. 가상환경 생성 및 활성화
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Mac/Linux
+   venv\Scripts\activate      # Windows
+   ```
+2. 필요한 패키지 설치
 ```bash
-cd backend
-uv sync
-uvicorn main:app
+pip install fastapi uvicorn
 ```
-*** 
+3. 서버 실행
+   ```bash
+uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+```
+***
+## docker로 실행
+```bash
+docker-compose up --build
+``` 
